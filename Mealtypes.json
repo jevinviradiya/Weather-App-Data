@@ -1,0 +1,50 @@
+[
+    {
+        "meal_id": 1,
+        "meal_type": "Breakfast",
+        "Contact": "Eat glitter for breakfast and shine all day",
+        "meal_image": "https://cdn.pixabay.com/photo/2016/11/06/23/31/breakfast-1804457__340.jpg"
+    },
+    {
+        "meal_id": 2,
+        "meal_type": "Brunch",
+        "Contact": "Breakfast is a meal but brunch is a culture",
+        "meal_image": "https://images.pexels.com/photos/350343/pexels-photo-350343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 3,
+        "meal_type": "Lunch",
+        "Contact": "My wish for you is a beautiful lunchtime, and do enjoy the rest of your day to the fullest",
+        "meal_image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 4,
+        "meal_type": "Tea",
+        "Contact": "It's tea time! Time to be thankful for today's blessings",
+        "meal_image": "https://images.pexels.com/photos/905485/pexels-photo-905485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 5,
+        "meal_type": "Dinner",
+        "Contact": "What a fantastic meal!",
+        "meal_image": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 6,
+        "meal_type": "Snacks",
+        "Contact": "That was a delicious meal",
+        "meal_image": "https://images.pexels.com/photos/1407346/pexels-photo-1407346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 7,
+        "meal_type": "Drinks",
+        "Contact": "Twinkle, twinkle, little star, point us to the nearest bar",
+        "meal_image": "https://images.pexels.com/photos/110472/pexels-photo-110472.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "meal_id": 8,
+        "meal_type": "NightLife",
+        "Contact": "Happy hour o'clock",
+        "meal_image": "https://images.pexels.com/photos/989711/pexels-photo-989711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+]

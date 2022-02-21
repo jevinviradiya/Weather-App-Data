@@ -1,0 +1,904 @@
+db.menu.insert(
+[
+    {
+        "menu_id": 1,
+        "menu_name": "Tea",
+        "description": "Where there's tea, there's happiness",
+        "restaurant_id": 1,
+        "menu_image": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "20"
+    },
+    {
+        "menu_id": 2,
+        "menu_name": "Coffee",
+        "description": " bad day with coffee is better than a good day without it",
+        "restaurant_id": 2,
+        "menu_image": "https://images.pexels.com/photos/3551717/pexels-photo-3551717.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "25"
+    },
+    {
+        "menu_id": 3,
+        "menu_name": "Cold Coffee",
+        "description": "serving it over ice or in cold milk, or by brewing the coffee cold",
+        "restaurant_id": 3,
+        "menu_image": "https://images.pexels.com/photos/11136849/pexels-photo-11136849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "20"
+    },
+    {
+        "menu_id": 4,
+        "menu_name": "Milk",
+        "description": "excellent source of protein",
+        "restaurant_id": 4,
+        "menu_image": "",
+        "menu_type": "vegetarian",
+        "menu_price": "30"
+    },
+    {
+        "menu_id": 5,
+        "menu_name": "Bornvita Milk",
+        "description": "Cadbury Bournvita is a health food drink with inner strength formula",
+        "restaurant_id": 5,
+        "menu_image": "https://images.pexels.com/photos/11136266/pexels-photo-11136266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "30"
+    },
+    {
+        "menu_id": 6,
+        "menu_name": "Green Tea",
+        "description": "Green tea is made from the Camellia sinensis plant",
+        "restaurant_id": 6,
+        "menu_image": "https://images.pexels.com/photos/6948155/pexels-photo-6948155.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "28"
+    },
+    {
+        "menu_id": 7,
+        "menu_name": "Chole Bhature",
+        "description": "It is a combination of chana masala (spicy white chickpeas) and bhatura/puri",
+        "restaurant_id": 1,
+        "menu_image": "https://www.istockphoto.com/photo/chickpeas-masala-and-bhatura-or-puri-garnished-with-fresh-green-coriander-and-gm1321061416-407401676?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbhature%2F&utm_medium=affiliate&utm_source=pexels&utm_term=bhature",
+        "menu_type": "vegetarian",
+        "menu_price": "70"
+    },
+    {
+        "menu_id": 8,
+        "menu_name": "Pizza",
+        "description": "It tastes like bread tomato and cheese, chewy, moist, slightly acidic, and sharp",
+        "restaurant_id": 1,
+        "menu_image": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "70"
+    },
+    {
+        "menu_id": 9,
+        "menu_name": "Pav Bhaji",
+        "description": ". It has spicy mashed vegetables served with dinner rolls",
+        "restaurant_id": 1,
+        "menu_image": "https://www.istockphoto.com/photo/pav-bhaji-indian-street-food-bharuch-gujarat-india-gm1327433011-411792552?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fpav%2520bhaji%2F&utm_medium=affiliate&utm_source=pexels&utm_term=pav%20bhaji",
+        "menu_type": "vegetarian",
+        "menu_price": "80"
+    },
+    {
+        "menu_id": 10,
+        "menu_name": "Paratha",
+        "description": "Paratha are unleavened layered flatbreads made with whole wheat flour (atta), salt, water & ghee or oil",
+        "restaurant_id": 1,
+        "menu_image": "https://images.pexels.com/photos/9346161/pexels-photo-9346161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 11,
+        "menu_name": "Pineapple Shira",
+        "description": "Pineapple sheera is a delicious sweet made with semolina, pinaapple, sugar, ghee and nuts",
+        "restaurant_id": 2,
+        "menu_image": "https://images.pexels.com/photos/7565673/pexels-photo-7565673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "20"
+    },
+    {
+        "menu_id": 12,
+        "menu_name": "Cheese Pizza",
+        "description": "These could include things like onions, pea pods, water chestnuts, flavored meat (usually chicken), soy sauce and ginger",
+        "restaurant_id": 2,
+        "menu_image": "https://images.pexels.com/photos/11130821/pexels-photo-11130821.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "80"
+    },
+    {
+        "menu_id": 13,
+        "menu_name": "Sandwich",
+        "description": "consisting of vegetables and sliced cheese",
+        "restaurant_id": 2,
+        "menu_image": "https://images.pexels.com/photos/3609894/pexels-photo-3609894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "menu_type": "vegetarian",
+        "menu_price": "35"
+    },
+    {
+        "menu_id": 14,
+        "menu_name": "Poha",
+        "description": "is flattened rice that is steam cooked with onions, spices and herbs",
+        "restaurant_id": 2,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-vegetarian-glutenfree-snack-poha-indian-street-food-snack-poha-also-served-breakfast-madhya-pradesh-112711698.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "15"
+    },
+    {
+        "menu_id": 15,
+        "menu_name": "Medu Wada Sambhar",
+        "description": "is a South Indian fritter made from Vigna mungo",
+        "restaurant_id": 3,
+        "menu_image": "https://thumbs.dreamstime.com/b/medu-wada-south-indian-snack-medu-wada-south-indian-delicacy-commonly-served-breakfast-most-south-200588164.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "35"
+    },
+    {
+        "menu_id": 16,
+        "menu_name": "Cheese Sandwich",
+        "description": "A cheese sandwich is a sandwich made with cheese on bread",
+        "restaurant_id": 3,
+        "menu_image": "https://images.pexels.com/photos/4559174/pexels-photo-4559174.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 17,
+        "menu_name": "Paper Dosa",
+        "description": "it's a thin, crisp crepe or pancake",
+        "restaurant_id": 3,
+        "menu_image": "https://www.dreamstime.com/making-paper-plain-dosa-tawa-pan-spreading-dosa-batter-mix-rice-dal-oiling-thin-sheet-making-paper-image121843281",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 18,
+        "menu_name": "Tomato Soup",
+        "description": " tomato soup is served in a mug and it's drunk",
+        "restaurant_id": 3,
+        "menu_image": "https://images.pexels.com/photos/3832357/pexels-photo-3832357.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "49"
+    },
+    {
+        "menu_id": 19,
+        "menu_name": "Chicken Soup",
+        "description": "Chicken soup is a soup made from chicken, simmered in water",
+        "restaurant_id": 4,
+        "menu_image": "https://images.pexels.com/photos/2532442/pexels-photo-2532442.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "non-vegetarian",
+        "menu_price": "69"
+    },
+    {
+        "menu_id": 20,
+        "menu_name": "French Fries",
+        "description": "French fries or simply fries or chips, are pieces of potato that have been deep-fried",
+        "restaurant_id": 4,
+        "menu_image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 21,
+        "menu_name": "vegetarian Hakka Noodles",
+        "description": "Hakka noodles is a Chinese preparation where boiled noodles are stir fried with sauces and vegetables or meats",
+        "restaurant_id": 4,
+        "menu_image": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "90"
+    },
+    {
+        "menu_id": 22,
+        "menu_name": "Paneer Tikka",
+        "description": "Paneer tikka is an Indian dish made from chunks of paneer marinated in spices and grilled in a tandoor",
+        "restaurant_id": 4,
+        "menu_image": "https://images.pexels.com/photos/3928854/pexels-photo-3928854.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "130"
+    },
+    {
+        "menu_id": 23,
+        "menu_name": "Corn Pizza",
+        "description": " It adds a sweet crunchy element to a pizza and corn is the vegetable that goes best with cheese",
+        "restaurant_id": 5,
+        "menu_image": "https://images.pexels.com/photos/11130897/pexels-photo-11130897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "110"
+    },
+    {
+        "menu_id": 24,
+        "menu_name": "Chicken Tandoori",
+        "description": "a dish of roasted chicken marinated in yogurt and generously spiced, giving the meat its trademark red colour",
+        "restaurant_id": 5,
+        "menu_image": "https://images.pexels.com/photos/9646843/pexels-photo-9646843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "non-vegetarian",
+        "menu_price": "180"
+    },
+    {
+        "menu_id": 25,
+        "menu_name": "Chole Masala",
+        "description": "Chana masala is fairly dry and spicy with a sour citrus note",
+        "restaurant_id": 5,
+        "menu_image": "https://images.pexels.com/photos/9287032/pexels-photo-9287032.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "95"
+    },
+    {
+        "menu_id": 26,
+        "menu_name": "Schezwan Hakka Noodles",
+        "description": "Hakka noodles is a Chinese preparation where boiled noodles are stir fried with sauces and vegetables or meats",
+        "restaurant_id": 5,
+        "menu_image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 27,
+        "menu_name": "vegetarian Kolhapuri",
+        "description": " this spicy and tasty mixed vegetable based dish has its origin in kolhapur",
+        "restaurant_id": 6,
+        "menu_image": "https://thumbs.dreamstime.com/b/veg-kolhapuri-black-bowl-isolated-white-indian-vegetable-curry-dish-vegetarian-asian-food-meal-198128734.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "140"
+    },
+    {
+        "menu_id": 28,
+        "menu_name": "Jeera Dal",
+        "description": "basmati rice and massour dal",
+        "restaurant_id": 6,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-traditional-dal-fry-jeera-rice-also-known-as-dal-chawal-indian-traditional-dal-fry-jeera-rice-also-known-as-dal-193290607.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "89"
+    },
+    {
+        "menu_id": 29,
+        "menu_name": "Chiken Kadhai",
+        "description": "Kadai chicken is a delicious, spicy & flavorful dish made with chicken, onions, tomatoes, ginger, garlic & fresh ground spices known as kadai masala",
+        "restaurant_id": 6,
+        "menu_image": "https://thumbs.dreamstime.com/b/grilled-chiken-winglets-10572953.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "220"
+    },
+    {
+        "menu_id": 30,
+        "menu_name": "Dal Fry",
+        "description": "made with tur dal (pigeon pea lentils), onions, tomatoes and spices",
+        "restaurant_id": 6,
+        "menu_image": "https://thumbs.dreamstime.com/b/bowl-indian-dal-tadka-30006417.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "105"
+    },
+    {
+        "menu_id": 31,
+        "menu_name": "Palak Paneer",
+        "description": "consisting of paneer (a type of cottage cheese) in a thick paste made from puréed spinach",
+        "restaurant_id": 6,
+        "menu_image": "https://thumbs.dreamstime.com/b/palak-paneer-traditional-popular-indian-dish-spinach-cheese-37177993.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "125"
+    },
+    {
+        "menu_id": 32,
+        "menu_name": "Mutton Fry",
+        "description": "Simplle & flavourful Andhra style mutton roast",
+        "restaurant_id": 7,
+        "menu_image": "https://thumbs.dreamstime.com/b/kerala-mutton-liver-fry-horizontal-fried-onion-indian-spices-to-make-traditional-south-india-served-basmati-long-34444470.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "260"
+    },
+    {
+        "menu_id": 33,
+        "menu_name": "Egg Chilli Fry",
+        "description": "Boiled egg chilly fry is an irresistible dish that has a lovely creamy texture",
+        "restaurant_id": 7,
+        "menu_image": "https://thumbs.dreamstime.com/b/masala-anda-fry-made-using-chicken-egg-indian-starter-masala-egg-tawa-fry-ande-ki-sabzi-served-plate-selective-focus-189368926.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "72"
+    },
+    {
+        "menu_id": 34,
+        "menu_name": "vegetarian Raita",
+        "description": "chopped veggies are mixed with chilled yogurt and few raita spices",
+        "restaurant_id": 7,
+        "menu_image": "https://thumbs.dreamstime.com/b/vegan-vegetarian-indian-cuisine-dish-cold-yoghurt-raita-soup-summer-bowl-cucumber-dill-meal-isolated-white-79790154.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    },
+    {
+        "menu_id": 35,
+        "menu_name": "Rajma Rice",
+        "description": " Rajma chawal is kidney beans served with boiled rice",
+        "restaurant_id": 7,
+        "menu_image": "https://thumbs.dreamstime.com/b/rajma-chawal-rice-21781096.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 36,
+        "menu_name": "Orange Juice",
+        "description": "It's made by squeezing oranges to extract the juice",
+        "restaurant_id": 7,
+        "menu_image": "https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "49"
+    },
+    {
+        "menu_id": 37,
+        "menu_name": "Fresh Lime Water",
+        "description": "It's a cold water with lemon juice",
+        "restaurant_id": 8,
+        "menu_image": "https://images.pexels.com/photos/1126975/pexels-photo-1126975.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "15"
+    },
+    {
+        "menu_id": 38,
+        "menu_name": "Chicken Manchurian Dry",
+        "description": "Crispy fried chicken pieces are tossed in a sweet and savoury sauce and served alongside fried rice or noodles",
+        "restaurant_id": 8,
+        "menu_image": "https://thumbs.dreamstime.com/b/veg-manchurian-indian-indo-chinese-snack-prepared-chicken-cabbage-meat-served-dry-gravy-along-fried-83341877.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id": 39,
+        "menu_name": "Fish Cutlets",
+        "description": "It consists of a mix of various steamed vegetables like carrots, potatoes, peas, cauliflower, broccoli, corn and more",
+        "restaurant_id": 8,
+        "menu_image": "https://thumbs.dreamstime.com/b/cutlets-plate-fried-34762555.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "280"
+    },
+    {
+        "menu_id": 40,
+        "menu_name": "vegetarian Bhuna",
+        "description": " Bhuna is a strong tasting curry that is full of fairly hot spices",
+        "restaurant_id": 8,
+        "menu_image": "https://thumbs.dreamstime.com/b/paneer-jalfrezi-21032606.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "149"
+    },
+    {
+        "menu_id": 41,
+        "menu_name": "Egg Bhurgy",
+        "description": "is a scrambled eggs dish which is a popular Indian street food and a breakfast, lunch or dinner recipe",
+        "restaurant_id": 8,
+        "menu_image": "https://images.pexels.com/photos/11092245/pexels-photo-11092245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "non-vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 42,
+        "menu_name": "Apple Juice",
+        "description": "Apple juice contains minerals such as calcium, potassium, iron, manganese and magnesium",
+        "restaurant_id": 8,
+        "menu_image": "https://images.pexels.com/photos/1420042/pexels-photo-1420042.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "59"
+    },
+    {
+        "menu_id": 43,
+        "menu_name": "Chocolate Shake",
+        "description": "is a sweet drink made by blending milk, ice cream, and flavorings or sweeteners",
+        "restaurant_id": 8,
+        "menu_image": "https://images.pexels.com/photos/2128271/pexels-photo-2128271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "38"
+    },
+    {
+        "menu_id": 44,
+        "menu_name": "Banana Shake",
+        "description": "sweetened drink made by blending ripe bananas, milk, ice cream, flavorings and a sweetener",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/jug-tasty-banana-milk-shake-jug-tasty-banana-milk-shake-table-105735849.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "41"
+    },
+    {
+        "menu_id": 45,
+        "menu_name": "Meat Paratha Gravy",
+        "description": "Crispy flaky parathas, stuffed with a layer of egg and spicy minced mutton",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/breaks-fast-paratha-anda-egg-gravy-breaks-fast-paratha-anda-egg-gravy-indian-pakistan-235117848.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id": 46,
+        "menu_name": "Dal Makhani",
+        "description": "It is a modern take on the age-old urad ki dal",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/dal-makhani-indian-vegeterian-dish-30736980.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "88"
+    },
+    {
+        "menu_id": 47,
+        "menu_name": "Bundi Raita",
+        "description": "Raiti is an Indian condiment made from salted yoghurt (dahi), mixed together with a variety of vegetables, fruits and herbs",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-side-dish-bundi-rayata-dish-made-using-salty-curd-buttermilk-gram-flour-green-coriander-bundi-rayata-105486419.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    },
+    {
+        "menu_id": 48,
+        "menu_name": "Mango Lassi",
+        "description": "is a delicious creamy drink with mango, yogurt, milk, a little sugar, and a sprinkling of cardamom",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/mango-lassi-dessert-traditional-indian-drink-wood-mango-lassi-dessert-traditional-indian-drink-wooden-table-copyspace-124409645.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    },
+    {
+        "menu_id": 49,
+        "menu_name": "Mashroom Pav Bhaji",
+        "description": "A quick stir fry of mushrooms in pav bhaji masala that is also mixed with sauteed onions and tomatoes",
+        "restaurant_id": 9,
+        "menu_image": "https://thumbs.dreamstime.com/b/pav-bhaji-popular-indian-street-food-close-up-bowl-horiz-pav-bhaji-popular-indian-street-food-close-up-bowl-table-112671974.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "70"
+    },
+    {
+        "menu_id": 50,
+        "menu_name": "Chicken Paratha",
+        "description": "This butter chicken roll is made with our creamy butter chicken masala curry, topped with your favorite vegetables and chutneys, wrapped in a flakey paratha roll",
+        "restaurant_id": 10,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-curry-naan-indian-dish-flat-bread-64468041.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 51,
+        "menu_name": "Sweet Corn Soup",
+        "description": "Corn soup is a soup made of corn, typically sweetcorn",
+        "restaurant_id": 10,
+        "menu_image": "https://thumbs.dreamstime.com/b/corn-soup-bowl-sweet-corn-plate-brown-59996644.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "59"
+    },
+    {
+        "menu_id": 52,
+        "menu_name": "Grilled Mix Sandwich",
+        "description": " they're saturated with the good stuff, like butter and cheese",
+        "restaurant_id": 10,
+        "menu_image": "https://thumbs.dreamstime.com/b/grilled-sandwich-stuffed-mayonnaise-mix-shrimp-egg-grilled-sandwich-stuffed-mayonnaise-mix-shrimp-egg-181040299.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "60"
+    },
+    {
+        "menu_id": 53,
+        "menu_name": "Kaju Masala",
+        "description": "Kaju curry is a restaurant style delicious recipe of a creamy kaju butter masala with a rich, tangy, sweet flavorful gravy made with cashews, tomatoes, cream and spices",
+        "restaurant_id": 10,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-traditional-vegetarian-cuisine-kaju-curry-indian-traditional-vegetarian-cuisine-kaju-curry-also-called-kaju-butter-masala-158996140.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "189"
+    },
+    {
+        "menu_id": 54,
+        "menu_name": "Milk Shake",
+        "description": "a cold drink made of milk, a sweet flavouring such as fruit or chocolate, and typically ice cream, whisked until it is frothy",
+        "restaurant_id": 10,
+        "menu_image": "https://www.dreamstime.com/royalty-free-stock-image-milk-shake-image22989686",
+        "menu_type": "vegetarian",
+        "menu_price": "99"
+    },
+    {
+        "menu_id": 55,
+        "menu_name": "Chicken Adraki",
+        "description": "his recipe combines a variety of spices, some of which you toast while whole and then grind into a fine powder",
+        "restaurant_id": 10,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-wings-plate-delicious-buffalo-style-celery-dipping-sauce-53711579.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "220"
+    },
+    {
+        "menu_id": 56,
+        "menu_name": "Egg Boiled",
+        "description": " usually by immersion in boiling water",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/closeup-unpeeled-boiled-egg-half-eggs-white-background-food-menu-concept-closeup-unpeeled-boiled-egg-half-eggs-117215484.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "25"
+    },
+    {
+        "menu_id": 57,
+        "menu_name": "Fish Goan Curry",
+        "description": "this sour paste is the sour element in Goan Fish Curry",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/goan-pomfret-curry-goan-fish-curry-spicy-made-spices-goa-western-india-38589951.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "230"
+    },
+    {
+        "menu_id": 58,
+        "menu_name": "Chicken Paratha Gravy",
+        "description": "A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavoured with ginger and garlic",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-curry-naan-indian-dish-flat-bread-64468041.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id": 59,
+        "menu_name": "Mutton Do-Payaza",
+        "description": "A mutton preparation made with both chunks of mutton and minced mutton is Rara gosht",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/awadhi-mutton-do-pyaza-prepared-goat-meat-onions-right-mix-spices-slow-cooked-cuisine-traditional-assorted-indian-175144949.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "260"
+    },
+    {
+        "menu_id": 60,
+        "menu_name": "Paneer Jafrani",
+        "description": "Zafrani Paneer Tikka. Cottage cheese marinated with saffron and spices cooked in tandoor",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-meal-punjabi-paneer-butter-masala-roti-indian-main-course-lunch-dinner-paneer-butter-masala-curry-roti-indian-109156151.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "140"
+    },
+    {
+        "menu_id": 61,
+        "menu_name": "vegetarian Moghlai",
+        "description": "Mughlai dishes include korma, haleem, pasanda and kachri keema",
+        "restaurant_id": 11,
+        "menu_image": "https://thumbs.dreamstime.com/b/shahi-pulao-moghlai-version-delicately-spiced-rice-61394142.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "121"
+    },
+    {
+        "menu_id": 62,
+        "menu_name": "Chickoo Milk Shake",
+        "description": "This chikoo shake is one such variation where sweet soft ripened chikoo is blended with milk and sugar",
+        "restaurant_id": 12,
+        "menu_image": "https://thumbs.dreamstime.com/b/milk-shake-sap-sapodila-smoothie-close-up-photo-straw-84615383.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 63,
+        "menu_name": "Dahi Vada",
+        "description": "It is prepared by soaking vadas (fried flour balls) in thick dahi ",
+        "restaurant_id": 12,
+        "menu_image": "https://thumbs.dreamstime.com/b/dahi-vada-22421526.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "60"
+    },
+    {
+        "menu_id": 64,
+        "menu_name": "Mysore Masala",
+        "description": "A crispy dosa, quite similar to the regular masala dosa but with a twist of fiery red chutney",
+        "restaurant_id": 12,
+        "menu_image": "https://thumbs.dreamstime.com/b/mysore-masala-dosa-stuffed-potato-masala-chutney-sambhar-studio-shot-42958537.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "148"
+    },
+    {
+        "menu_id": 65,
+        "menu_name": "vegetarian Cutlet",
+        "description": "Veg cutlet are popular in the Indian cuisine and are made with vegetables like potatoes, carrots, peas, herbs and spices",
+        "restaurant_id": 12,
+        "menu_image": "https://thumbs.dreamstime.com/b/corn-cutlet-spicy-snack-prepared-veggies-31376412.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "115"
+    },
+    {
+        "menu_id": 66,
+        "menu_name": "Kashmiri Pulao",
+        "description": "pulao is made through the absorption method. While preparing biryani, the rice is par-boiled in water and then drained",
+        "restaurant_id": 12,
+        "menu_image": "https://thumbs.dreamstime.com/b/kashmiri-modur-pulao-sweetened-rice-india-made-cooked-sugar-water-flavored-saffron-dry-fruits-38493496.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id": 67,
+        "menu_name": "Baby Corn Chilly",
+        "description": "Fried pieces of baby corn are combined with a spicy, sweet, umami sauce for a bright and bold dish",
+        "restaurant_id": 13,
+        "menu_image": "https://thumbs.dreamstime.com/b/chilly-baby-corn-fry-served-hot-mouth-watering-dish-as-starter-132277443.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "185"
+    },
+    {
+        "menu_id": 68,
+        "menu_name": "vegetarian Spring Roll",
+        "description": "These Spring rolls are a popular Chinese snack of crispy rolls filled with a savory mixed vegetables stuffing",
+        "restaurant_id": 13,
+        "menu_image": "https://thumbs.dreamstime.com/b/vegetarian-spring-roll-19136691.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "185"
+    },
+    {
+        "menu_id": 69,
+        "menu_name": "Palak Kofta",
+        "description": "which has shallow fried spinach dumplings in onion and tomato based spicy gravy",
+        "restaurant_id": 13,
+        "menu_image": "https://thumbs.dreamstime.com/b/paneer-palak-kofta-vegetable-hot-serv-paneer-palak-kofta-vegetable-hot-serv-white-background-new-delhi-india-214529087.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "215"
+    },
+    {
+        "menu_id": 70,
+        "menu_name": "Dum Aloo",
+        "description": "Aloor Dum is a potato based curry dish",
+        "restaurant_id": 13,
+        "menu_image": "https://thumbs.dreamstime.com/b/awadhi-dum-aloo-potato-dish-india-stuffed-cooked-silky-sauce-can-be-served-roti-indian-flat-bread-38552936.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "190"
+    },
+    {
+        "menu_id": 71,
+        "menu_name": "Chicken Zinger",
+        "description": "crispy fried chicken fillet slathered with a special burger sauce, topped with a slice of Cheddar cheese, finished off with Romaine lettuce",
+        "restaurant_id": 13,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-zinger-burger-fries-dip-188618589.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id": 72,
+        "menu_name": "Krunchy Burger",
+        "description": "American snack cake made by both Dolly Madison and Hostess",
+        "restaurant_id": 13,
+        "menu_image": "https://images.pexels.com/photos/3630141/pexels-photo-3630141.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "vegetarian",
+        "menu_price": "160"
+    },
+    {
+        "menu_id": 73,
+        "menu_name": "Paneer Dosa",
+        "description": "The Paneer Dosa stuffing has a spicy and wonderful texture, thanks to veggies like cabbage and tomatoes",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/paneer-dosa-masala-crispy-indian-savory-crepe-delicious-filling-made-cottage-cheese-195902450.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "160"
+    },
+    {
+        "menu_id": 74,
+        "menu_name": "Kadai Paneer",
+        "description": "Kadai paneer is a spicy, warming, flavorful and super delicious dish made by cooking paneer & bell peppers in a fragrant, fresh ground spice powder",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/kadai-paneer-23223858.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "250"
+    },
+    {
+        "menu_id": 75,
+        "menu_name": "Mix vegetarian Soup",
+        "description": " medley of veggies in every spoonful, homemade vegetable soup contains onion, celery, carrots, turnips, tomatoes, green beans, cabbage, and fresh parsley",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/clear-soup-bean-curd-mix-vegetable-tofu-seaweed-white-bowl-white-background-vegetarian-food-healthy-food-thai-76592939.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "120"
+    },
+    {
+        "menu_id": 76,
+        "menu_name": "Paneer Finger Schezwan",
+        "description": "A lip-smacking and easy to make snack, these crispy Schezwan Paneer Fingers are perfect for any parties, occasions or evening lite bites",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/crispy-paneer-schezwan-schezwan-cuisine-asia-chinese-cuisine-delicious-dish-which-prepared-using-paneer-schezwan-sauce-stir-127005875.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id": 77,
+        "menu_name": "Garlic Chilly Chowmein",
+        "description": "Chilli Garlic Chowmein makes a perfect combo with Chilli Chicken",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/brown-garlic-noodles-popular-indo-chinese-dish-served-over-rustic-wooden-background-selective-focus-224002816.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "165"
+    },
+    {
+        "menu_id": 78,
+        "menu_name": "Butter Roti",
+        "description": "Butter roti is made using whole wheat flour and can be eaten with any choice of dal,vegetable or curry dish. Learn how to make butter roti",
+        "restaurant_id": 14,
+        "menu_image": "https://thumbs.dreamstime.com/b/rice-roti-indian-vegetarian-food-flat-bread-made-flour-dough-south-traditional-popular-usually-eaten-114756622.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "25"
+    },
+    {
+        "menu_id": 79,
+        "menu_name": "Chicken Sukka",
+        "description": "made using fresh chicken, masalas, grated fresh coconut, and it is generously tempered using ghee as well as onions",
+        "restaurant_id": 15,
+        "menu_image": "https://images.pexels.com/photos/3171159/pexels-photo-3171159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "menu_type": "non-vegetarian",
+        "menu_price": "130"
+    },
+    {
+        "menu_id": 80,
+        "menu_name": "Mutton Sukka",
+        "description": "Mutton Sukka is made with fresh meat, desiccated coconut and masalas and tempered with curry",
+        "restaurant_id": 15,
+        "menu_image": "https://thumbs.dreamstime.com/b/mutton-chaap-fried-battered-spicy-lamb-cutlets-garnished-green-chilies-coriander-chaat-masala-32720189.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id": 81,
+        "menu_name": "Paneer Crispy",
+        "description": "Paneer crispy is an Indo-Chinese starter of crispy fried paneer tossed in garlic-flavored little spicy, sweet, and sour sauce",
+        "restaurant_id": 15,
+        "menu_image": "https://thumbs.dreamstime.com/b/fried-paneer-29264832.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "140"
+    },
+    {
+        "menu_id": 82,
+        "menu_name": "vegetarian Kolhapuri",
+        "description": "vegetable kolhapuri recipe restaurant style with detailed photo and video recipe",
+        "restaurant_id": 15,
+        "menu_image": "https://thumbs.dreamstime.com/b/veg-kolhapuri-black-bowl-isolated-white-indian-vegetable-curry-dish-vegetarian-asian-food-meal-198128734.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "110"
+    },
+    {
+        "menu_id": 83,
+        "menu_name": "Amritsari Kulcha",
+        "description": "Amritsari Kulcha could be described as a local variation of the famous naan",
+        "restaurant_id": 15,
+        "menu_image": "https://thumbs.dreamstime.com/b/amritsari-kulcha-clay-baked-stuffed-naan-typical-meal-amritsar-india-ind-187459341.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 84,
+        "menu_name": "Chicken 65",
+        "description": "65 chillies to the recipe to make it super spicy and so forth",
+        "restaurant_id": 15,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-indian-chicken-appetizer-morsels-spicy-mix-deep-fried-oil-selective-focus-86677120.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "130"
+    },
+    {
+        "menu_id": 85,
+        "menu_name": "Strawberry Milk Shake",
+        "description": "fresh strawberries, vanilla extract, ice cream, and milk",
+        "restaurant_id": 16,
+        "menu_image": "https://thumbs.dreamstime.com/b/strawberry-milk-shake-food-close-up-31759978.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 86,
+        "menu_name": "Paneer Lazawab",
+        "description": ". There are some distinct traits that make Paneer the cheese",
+        "restaurant_id": 16,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-food-saag-paneer-curry-dish-chopped-cilantro-shot-high-up-43242335.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "111"
+    },
+    {
+        "menu_id": 87,
+        "menu_name": "Egg Bhurgy",
+        "description": "Heavy with tomatoes, chilies, onion, and fragrant spices, these scrambled eggs make for a substantial and satisfying meal, in a matter of minutes",
+        "restaurant_id": 16,
+        "menu_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Eggbhurjee.JPG",
+        "menu_type": "non-vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id": 88,
+        "menu_name": "Mutton Kheema Fry",
+        "description": "It is typically minced mutton curry with peas or potatoes",
+        "restaurant_id": 16,
+        "menu_image": "https://thumbs.dreamstime.com/b/tawa-mutton-fry-gosht-authentic-spicy-lamb-dish-cooked-spices-served-over-rustic-wooden-background-selective-focus-224002408.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "288"
+    },
+    {
+        "menu_id": 89,
+        "menu_name": "Dal Palak",
+        "description": "No Onion No Garlic Version. Made in a stovetop pressure cooker",
+        "restaurant_id": 16,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-cuisine-dal-palak-dish-homemade-lentil-spinach-curry-served-chapathi-82219331.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id": 90,
+        "menu_name": "Bhendi Masala",
+        "description": "Simple ladies finger dry curry made with okra, spices, onion and tomatoes",
+        "restaurant_id": 16,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-bharwa-bhindi-masala-fried-okra-bhendi-ladyfinger-curry-stuffed-okra-is-main-course-vegetable-recipe-made-192790272.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "109"
+    },
+    {
+        "menu_id": 91,
+        "menu_name": "Chapati",
+        "description": "traditionally known as gehu ka atta, and water that is combined into a dough",
+        "restaurant_id": 17,
+        "menu_image": "https://thumbs.dreamstime.com/b/indian-chapati-stack-roti-flat-bread-83341376.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "10"
+    },
+    {
+        "menu_id": 92,
+        "menu_name": "Naan",
+        "description": "Naan is leavened flatbread prepared with all-purpose flour, wheat flour or a combination of both",
+        "restaurant_id": 17,
+        "menu_image": "https://thumbs.dreamstime.com/b/garlic-naan-bread-delicious-homemade-flatbread-butter-cilantro-53176409.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "25"
+    },
+    {
+        "menu_id": 93,
+        "menu_name": "Malai Kheer",
+        "description": "Kheer or rice kheer contains rich in starch rice",
+        "restaurant_id": 17,
+        "menu_image": "https://c.ndtvimg.com/2020-10/m6mlf3qg_kheer_625x300_19_October_20.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    },
+    {
+        "menu_id": 94,
+        "menu_name": "Paneer 65 Dry",
+        "description": " a hotelier, who used 65 chili peppers for the dish invented it",
+        "restaurant_id": 17,
+        "menu_image": "https://thumbs.dreamstime.com/b/hot-chilli-paneer-saucy-version-cottage-cheese-cooked-spicy-indian-style-42391778.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "101"
+    },
+    {
+        "menu_id": 95,
+        "menu_name": "Fish Tikka",
+        "description": "A good tikka in oven is one of the healthiest Indian appetizers",
+        "restaurant_id": 17,
+        "menu_image": "https://thumbs.dreamstime.com/b/spicy-fish-tikka-india-made-marinated-masala-deep-fried-38475458.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "280"
+    },
+    {
+        "menu_id": 96,
+        "menu_name": "vegetarian Gold Coin",
+        "description": "a simple indo chinese snacks recipe prepared mainly with round bread piece with spiced mixed vegetable topping",
+        "restaurant_id": 18,
+        "menu_image": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/veg-gold-coin-recipe-vegetable-gold-coins-chinese-gold-coins-1-696x927.jpeg",
+        "menu_type": "vegetarian",
+        "menu_price": "120"
+    },
+    {
+        "menu_id": 97,
+        "menu_name": "Mutton Biryani",
+        "description": "Long-grained rice (like basmati) flavored with fragrant spices such as saffron and layered with lamb, chicken, fish, or vegetables and a thick gravy",
+        "restaurant_id": 18,
+        "menu_image": "https://thumbs.dreamstime.com/b/mutton-biryani-korma-curd-chutney-onion-salad-mutton-biryani-delicious-dish-made-lamb-meat-spices-herbs-yogurt-154775095.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "210"
+    },
+    {
+        "menu_id": 98,
+        "menu_name": "vegetarian Patiala",
+        "description": "Veg patiala recipes. Veg Patiala, a creamy gravy with mixed veggies layered with fried papad",
+        "restaurant_id": 18,
+        "menu_image": "https://thumbs.dreamstime.com/b/veg-patiala-creamy-gravy-mixed-veggies-layered-fried-papad-unique-taste-delicious-accompaniment-your-parathas-225786822.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id": 99,
+        "menu_name": "Chicken Clear Soup",
+        "description": "Clear soup is a soup that is made by simmering veggies, & or meat in a liquid until all the flavors are released",
+        "restaurant_id": 18,
+        "menu_image": "https://thumbs.dreamstime.com/b/chicken-soup-rice-vegetables-bowl-bread-rustic-table-36569224.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "81"
+    },
+    {
+        "menu_id": 100,
+        "menu_name": "Carrot Juice",
+        "description": "Carrot juice is incredibly nutritious, providing potassium, several carotenoids, and vitamins A, C, and K",
+        "restaurant_id": 18,
+        "menu_image": "https://thumbs.dreamstime.com/b/carrot-juice-23193602.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "49"
+    }
+]
+)

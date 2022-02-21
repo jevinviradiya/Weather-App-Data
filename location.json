@@ -1,0 +1,39 @@
+db.location.insert(
+[
+    {
+        "location_id": 1,
+        "location_name": "Laxmi Vilas Palace, Vadodara",
+        "state_id": 1,
+        "state": "Gujarat",
+        "country_name": "India"
+    },
+    {
+        "location_id": 12,
+        "location_name": "Gateway of India, Mumbai",
+        "state_id": 2,
+        "state": "Maharashtra",
+        "country_name": "India"
+    },
+    {
+        "location_id": 5,
+        "location_name": "Chandni Chowk, New Delhi",
+        "state_id": 3,
+        "state": "Delhi",
+        "country_name": "India"
+    },
+    {
+        "location_id": 8,
+        "location_name": "City Palace, Udaipur",
+        "state_id": 4,
+        "state": "Rajasthan",
+        "country_name": "India"
+    },
+    {
+        "location_id": 6,
+        "location_name": "Chandigarh, Punjab",
+        "state_id": 5,
+        "state": "Punjab",
+        "country_name": "India"
+    }
+]
+)
